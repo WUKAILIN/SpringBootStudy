@@ -2,7 +2,9 @@ package com.springboot.demo.mybatis.pojo;
 
 import com.springboot.demo.jdbcTemplate.pojo.SexEnum;
 
-public class UserInfo {
+import java.io.Serializable;
+
+public class UserInfo implements Serializable{
     private int userId;
 
     private String userName;
